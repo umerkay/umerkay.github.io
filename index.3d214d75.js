@@ -35304,6 +35304,11 @@ var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _sideScroller = require("../Components/SideScroller");
 var _sideScrollerDefault = parcelHelpers.interopDefault(_sideScroller);
+var _display = require("../Components/Display");
+var _displayDefault = parcelHelpers.interopDefault(_display);
+var _needlessCss = require("../css/needless.css");
+var _needlesslogoJpg = require("../img/needlesslogo.jpg");
+var _needlesslogoJpgDefault = parcelHelpers.interopDefault(_needlesslogoJpg);
 function Games() {
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
         children: [
@@ -35312,12 +35317,35 @@ function Games() {
                 children: " Games!"
             }, void 0, false, {
                 fileName: "Pages/Games.js",
-                lineNumber: 7,
+                lineNumber: 10,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _sideScrollerDefault.default), {}, void 0, false, {
                 fileName: "Pages/Games.js",
-                lineNumber: 9,
+                lineNumber: 12,
+                columnNumber: 13
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _displayDefault.default), {
+                title: "needlessjs",
+                links: [
+                    {
+                        href: "https://github.com/umerkay/needless-library",
+                        text: "Code"
+                    },
+                    {
+                        href: "https://umerkay.github.io/needlessjs/",
+                        text: "Website"
+                    }
+                ],
+                images: [
+                    (0, _needlesslogoJpgDefault.default)
+                ],
+                description: "Graphic & Sketch Library",
+                info: "These games are made with love on Needlessjs, or some development version of it. Needlessjs is a library I have developed myself to do away with the redundant and cumbersome nature of the Canvas API in JavaScript. It is inspired by p5.js and the Processing Foundation's work, but allows sketches to be much more modular.",
+                id: "needless"
+            }, void 0, false, {
+                fileName: "Pages/Games.js",
+                lineNumber: 13,
                 columnNumber: 13
             }, this)
         ]
@@ -35332,7 +35360,7 @@ $RefreshReg$(_c, "Games");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../Components/SideScroller":"dhEFT"}],"dhEFT":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../Components/SideScroller":"dhEFT","../Components/Display":"i2DeH","../css/needless.css":"9MVev","../img/needlesslogo.jpg":"iDMWM"}],"dhEFT":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$0749 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -63268,7 +63296,10 @@ var createWebChannelTransport;
     XhrIo = webchannel_blob_es2018.XhrIo = X;
 }).apply(typeof commonjsGlobal !== "undefined" ? commonjsGlobal : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {});
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"5l9KJ":[function() {},{}],"0ktz7":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"5l9KJ":[function() {},{}],"9MVev":[function() {},{}],"iDMWM":[function(require,module,exports) {
+module.exports = require("d4b21db41d251c61").getBundleURL("UckoE") + "needlesslogo.21fe1939.jpg" + "?" + Date.now();
+
+},{"d4b21db41d251c61":"lgJ39"}],"0ktz7":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$9519 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;

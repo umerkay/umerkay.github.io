@@ -593,6 +593,36 @@ span.time {
   text-align: right;
 }
 
+#needless {
+  background: url("needlessbg.05597eba.jpg");
+  padding: 5rem;
+}
+
+#needless .brand {
+  align-items: center;
+  display: flex;
+}
+
+#needless .imgs img {
+  border-radius: 1rem;
+  width: 250px;
+  margin-right: 2rem;
+}
+
+#needless .title {
+  margin-bottom: .5rem;
+  font-size: 3.5rem;
+  font-weight: 600;
+}
+
+#needless .sub {
+  margin-bottom: .5rem;
+}
+
+#needless .info {
+  font-size: .75rem;
+}
+
 #coursework {
   background: url("needlessbg.05597eba.jpg");
   padding: 5rem;
