@@ -936,7 +936,7 @@ footer.main {
   }
 
   .container {
-    padding: 0;
+    padding: .2rem;
   }
 
   .display {
@@ -954,6 +954,20 @@ footer.main {
   #nf .brand {
     width: 100%;
     transform: scaleX(1);
+  }
+
+  #skills + .title {
+    text-align: center !important;
+  }
+
+  .links {
+    width: 350px !important;
+  }
+
+  #sidescroller .brand > div {
+    flex-direction: column;
+    gap: 1rem;
+    display: flex !important;
   }
 
   .display:nth-child(2n) {
@@ -994,7 +1008,7 @@ footer.main {
     margin-bottom: 2rem !important;
   }
 
-  .container > .title {
+  .container > .title, .container > h2, .container > h3 {
     text-align: center;
   }
 
@@ -1024,10 +1038,10 @@ footer.main {
     padding: 3rem 1rem;
   }
 
-  #needless .logo img {
+  #needless .imgs img, #coursework .imgs img {
     padding: 0;
     width: 100% !important;
-    margin: 0 !important;
+    margin: 0 0 1rem !important;
   }
 
   #designs .card {
